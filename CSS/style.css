@@ -1,2 +1,12 @@
-border-color: #e5d6e5; 
-border-width: 50px  
+body {
+background-color: white;  
+}
+
+h1 {
+color: rgb(126, 85, 180);
+}
+
+.story {
+
+color: rgb(126, 85, 180); 
+}
