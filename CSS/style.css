@@ -6,7 +6,6 @@ div.main::after {
     content: "";
 background-color: white;
 background-image: url(../img/feathers.jpg);
-background-repeat: repeat; 
 opacity: 0.4;
 position: absolute;
 top: 0;
@@ -26,6 +25,11 @@ color: rgb(126, 85, 180);
 }
 
 .training_tips {
+color: rgb(126, 85, 180); 
+
+}
+
+.race_day_tips {
 color: rgb(126, 85, 180); 
 
 }
