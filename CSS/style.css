@@ -1,19 +1,21 @@
 div.main {
-
+    font-family: 'B612', sans-serif;
 }
-
-div.main::after {
+div.main::before {
     content: "";
 background-color: white;
 background-image: url(../img/feathers.jpg);
-opacity: 0.4;
+opacity: 0.27;
 position: absolute;
 top: 0;
 bottom: 0;
 left: 0;
 right: 0;
 z-index: -1;
+min-width: 100%;
+min-height: 100% 
 }
+
 
 h1 {
 color: rgb(126, 85, 180);
@@ -32,4 +34,8 @@ color: rgb(126, 85, 180);
 .race_day_tips {
 color: rgb(126, 85, 180); 
 
+}
+
+.race_reports_2016 {
+color: rgb(126, 85, 180);
 }
