@@ -1,4 +1,4 @@
-/* div.main {
+div.main {
     font-family: 'B612', sans-serif;
 }
 div.main::after {
@@ -14,11 +14,12 @@ right: 0;
 z-index: -1;
 min-width: 100%;
 min-height: 100% 
-} */
-
-body {
-background-image: url(../img/feathers.jpg); 
 }
+
+/* body {
+background-image: url(../img/feathers.jpg); 
+background-blend-mode: lighten; 
+} */
 
 h1 {
 color: rgb(126, 85, 180);
