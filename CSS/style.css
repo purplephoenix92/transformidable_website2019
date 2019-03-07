@@ -41,3 +41,76 @@ color: rgb(126, 85, 180);
     vertical-align:top;
     padding: 3px; 
 }
+
+.big_project {
+   display: flex; 
+}
+
+.my_story{
+    display: flex; 
+    flex-wrap: wrap; 
+}
+section{
+    display: flex; 
+    flex-wrap: wrap; 
+}
+section h2 {
+    width: 100%; 
+    }
+
+.my_story h2 {
+width: 100%; 
+}
+
+
+.my_story img {
+width: 50%; 
+}
+
+.training {
+display: flex; 
+}
+
+.race_day {
+display: flex; 
+}
+
+.race_reportkdf {
+display: flex; 
+
+}
+
+.race_reportubhm {
+display: flex;
+
+}
+
+section {
+border: 2px solid black;
+background-color: aquamarine; 
+}
+
+section div {
+border: 2px solid red;
+background-color: lightblue;     
+}
+
+.race_reportcst {
+display: flex;
+}
+
+.race_reportim703 {
+display: flex;
+}
+
+.swim_12 {
+display: flex; 
+}
+
+.bike_56{
+display: flex;
+}
+
+.run_131{
+display:flex; 
+}
