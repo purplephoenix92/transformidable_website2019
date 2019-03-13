@@ -150,8 +150,21 @@ display:flex;
 }
 }
 
+
 .navig {
+
+    float: right; 
+    right: 20px; 
+    position: absolute;
+    text-decoration: none; 
+}
+
+.navig > ul {
     display: flex;
-    justify-content: space-between; 
+    list-style: none; 
 } 
-    
+
+.navig > ul li {
+    float: right;  
+    margin: 0 10px; 
+}
