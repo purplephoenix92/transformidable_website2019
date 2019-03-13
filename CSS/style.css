@@ -150,9 +150,8 @@ display:flex;
 }
 }
 
-.navi {
+.navig {
     display: flex;
-    flex-direction: column; 
-    justify-content: center; 
-    color: blueviolet; 
-}
+    justify-content: space-between; 
+} 
+    
