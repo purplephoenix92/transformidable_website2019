@@ -8,6 +8,34 @@ height: 100%;
 background: rgba(255, 255, 255, 0.8); 
 }
 
+.title_nav {
+   padding-top: 1.5em;  
+   display: flex; 
+   flex-direction: column; 
+   margin-top: 2px; 
+}
+
+.title_nav,
+.title_navi {
+flex-direction: column; 
+align-self: center; 
+
+}
+
+.title_nav a {
+   display: flex;
+   color: rgb(126, 85, 180); 
+   font-size: 1.3 em; 
+   padding: .6 em; 
+   text-align: center;
+   border-bottom: 1px solid rebeccapurple; 
+}
+
+.title_nav a:hover {
+color:rgba(240, 116, 229, 0.8); 
+border-bottom-color: rgba(255, 255, 255, 0.8); 
+}
+
 h1 {
 color: rgb(126, 85, 180);
 }
@@ -88,7 +116,7 @@ display: flex;
 section {
 border: 2px solid black;
 background-color: aquamarine; 
-padding-top: 2em; 
+padding-top: .57em; 
 }
 
 section div {
@@ -114,4 +142,17 @@ display: flex;
 
 .run_131{
 display:flex; 
+}
+
+@media (min-width: 769px ){
+.title_nav {
+    height: 50px; 
+}
+}
+
+.navi {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    color: blueviolet; 
 }
