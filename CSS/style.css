@@ -70,14 +70,6 @@ color: rgb(126, 85, 180);
     padding: 3px; 
 }
 
-.big_project {
-   display: flex; 
-}
-
-.my_story{
-    display: flex; 
-    flex-wrap: wrap; 
-}
 section{
     display: flex; 
     flex-wrap: wrap; 
@@ -95,23 +87,6 @@ width: 100%;
 width: 50%; 
 }
 
-.training {
-display: flex; 
-}
-
-.race_day {
-display: flex; 
-}
-
-.race_reportkdf {
-display: flex; 
-
-}
-
-.race_reportubhm {
-display: flex;
-
-}
 
 section {
 border: 2px solid black;
@@ -142,12 +117,6 @@ display: flex;
 
 .run_131{
 display:flex; 
-}
-
-@media (min-width: 769px ){
-.title_nav {
-    height: 50px; 
-}
 }
 
 
