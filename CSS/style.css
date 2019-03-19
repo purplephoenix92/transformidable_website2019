@@ -25,8 +25,8 @@ align-self: center;
 .title_nav a {
    display: flex;
    color: rgb(126, 85, 180); 
-   font-size: 1.3 em; 
-   padding: .6 em; 
+   font-size: 1.3em; 
+   padding: .6em; 
    text-align: center;
    border-bottom: 1px solid rebeccapurple; 
 }
@@ -63,12 +63,12 @@ color: rgb(126, 85, 180);
 color: rgb(126, 85, 180); 
 
 }
-.col img{
+/* .col .imga .imgb{
     width:19.5%;
     display:inline-block;
     vertical-align:top;
     padding: 3px; 
-}
+} */
 
 section{
     display: flex; 
@@ -83,8 +83,8 @@ width: 100%;
 }
 
 
-.my_story img {
-width: 50%; 
+.imga, .imgb {
+width: 100%; 
 }
 
 
@@ -99,25 +99,6 @@ border: 2px solid red;
 background-color: lightblue;     
 }
 
-.race_reportcst {
-display: flex;
-}
-
-.race_reportim703 {
-display: flex;
-}
-
-.swim_12 {
-display: flex; 
-}
-
-.bike_56{
-display: flex;
-}
-
-.run_131{
-display:flex; 
-}
 
 
 .navig {
@@ -136,4 +117,21 @@ display:flex;
 .navig > ul li {
     float: right;  
     margin: 0 10px; 
+}
+
+/* @media (max-width:409px) {
+    .img, .imga {width: 50%}
+}
+
+@media (min-width: 410px) {
+
+ .img,  .imga { width: 50%;} 
+
+} */
+@media all(min-width: 409px) {
+.imgb {
+    max-width: 50%;
+    border: magenta solid 3px;  
+}
+
 }
