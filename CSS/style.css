@@ -89,14 +89,12 @@ width: 100%;
 
 
 section {
-border: 2px solid black;
-background-color: aquamarine; 
+border: 1px solid black;
 padding-top: .57em; 
 }
 
 section div {
-border: 2px solid red;
-background-color: lightblue;     
+border: 1px solid red;    
 }
 
 
@@ -128,10 +126,16 @@ background-color: lightblue;
  .img,  .imga { width: 50%;} 
 
 } */
-@media all(min-width: 409px) {
-.imgb {
+/* @media only screen and(min-width: 500px) {
+.imgb, .imga {
     max-width: 50%;
     border: magenta solid 3px;  
-}
+} */
+@media only screen and (max-width: 600px) {
+    .imgb, .imga {
+        max-width: 48%;
+     
+    }
+  }
 
 }
