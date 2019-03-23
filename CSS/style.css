@@ -50,7 +50,7 @@ width: 80%;
 
 
 .imga, .imgb {
-width: 100%; 
+width: 95%; 
 }
 
 
@@ -69,8 +69,12 @@ border: 1px solid red;
 
     float: right; 
     right: 20px; 
-    position: absolute;
+    position: fixed;
     text-decoration: none; 
+    top: 0; 
+    border: 1px solid paleturquoise;
+    background-color: whitesmoke;  
+
 }
 
 .navig > ul {
@@ -88,6 +92,6 @@ border: 1px solid red;
         max-width: 48%;
      
     }
-  }
+
 
 }
