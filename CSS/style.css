@@ -36,7 +36,7 @@ color: rgb(126, 85, 180);
 color: rgb(126, 85, 180); 
 }
 
-section{
+div{
     display: flex; 
     flex-wrap: wrap; 
 }
@@ -54,12 +54,12 @@ width: 95%;
 }
 
 
-section {
+div {
 border: 1px solid black;
 padding-top: .25em; 
 }
 
-section div {
+div section {
 border: 1px solid red;    
 }
 
