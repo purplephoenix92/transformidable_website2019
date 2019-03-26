@@ -11,7 +11,7 @@ background: rgba(255, 255, 255, 0.8);
 /* I wanted to make the headers for the different section purple because it matches the feather opacity background on the webpage */
 
 h1 {
-color: rgb(126, 85, 180);
+color: rgb(5, 14, 145);
 }
 
 .story {
@@ -31,7 +31,10 @@ color: black;
 }
 
 .image {
- display: flex;    
+ display: flex;
+ max-width: 100%; 
+ flex-wrap: wrap; 
+ border: solid palevioletred;    
 }
 .race_reports_2016 {
 color: black;
@@ -46,20 +49,21 @@ section{
     flex-wrap: wrap; 
 }
 
-.imga, .imgb {
-width: 92%; 
-}
-
-
 section {
 border: 1px solid black;
 padding-top: .25em; 
 }
 
 section div {
-border: 1px solid red;    
+border: 1px solid red;   
 }
 
+.col image {
+ display: inline-block;
+ vertical-align: top; 
+ padding: 3px; 
+
+}
 
 
 .navig {
@@ -89,6 +93,14 @@ What you are left with is a nav bar that expands all the width of the screen tha
     .image {
         max-width: 100%;
      
+    }
+
+    .navig {
+        flex-direction: column; 
+    }
+
+    .section {
+        flex-direction: column; 
     }
 
 
