@@ -17,6 +17,7 @@ color: rgb(126, 85, 180);
 .story {
 
 color: rgb(126, 85, 180); 
+margin-top: 70px; 
 }
 
 .training_tips {
@@ -25,16 +26,19 @@ color: rgb(126, 85, 180);
 }
 
 .race_day_tips {
-color: rgb(126, 85, 180); 
+color: black;
 
 }
 
+.image {
+ display: flex;    
+}
 .race_reports_2016 {
-color: rgb(126, 85, 180);
+color: black;
 }
 
 .race_reports_2017 {
-color: rgb(126, 85, 180); 
+color: black; 
 }
 
 section{
@@ -82,8 +86,8 @@ What you are left with is a nav bar that expands all the width of the screen tha
 }
 
 @media only screen and (max-width: 600px) {
-    .imgb, .imga {
-        max-width: 48%;
+    .image {
+        max-width: 100%;
      
     }
 
