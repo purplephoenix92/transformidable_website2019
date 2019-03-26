@@ -17,16 +17,19 @@ color: rgb(5, 14, 145);
 .story {
 
 color: rgb(126, 85, 180); 
-margin-top: 70px; 
+margin-top: 100px; 
 }
-
+/* I adjusted the top margin of the element just below the navigation bar, to make sure that text wasn't overlapped and that when
+ smooth scrolling to different sections in the webpage, that the navigation bar wouldn't overlap it. It took trial and error with a few different pixel sizes. */
 .training_tips {
 color: rgb(126, 85, 180); 
-
+margin-top: 100px; 
+ 
 }
 
 .race_day_tips {
 color: black;
+margin-top: 100px;
 
 }
 
@@ -36,12 +39,19 @@ color: black;
  flex-wrap: wrap; 
  border: solid palevioletred;    
 }
+
+/* At first I thought the flex direction column would make my images go in a column, but all it did was stretch the distort the
+images beyond their max width, even though normally when thinking of CSS columns that if in a flex-box they would adjust
+I removed the flex-direction: column tag and it made my images go from one stretched out image, to two side by side, changing 
+to one in my mobile viewport by my media query firing  */
 .race_reports_2016 {
 color: black;
+margin-top: 100px; 
 }
 
 .race_reports_2017 {
 color: black; 
+margin-top: 100px; 
 }
 
 section{
@@ -58,12 +68,12 @@ section div {
 border: 1px solid red;   
 }
 
-.col image {
+/* .col image {
  display: inline-block;
  vertical-align: top; 
  padding: 3px; 
 
-}
+} */
 
 
 .navig {
