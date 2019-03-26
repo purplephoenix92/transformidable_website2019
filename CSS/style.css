@@ -5,7 +5,7 @@ background-blend-mode: lighten;
 padding: 20px; 
 }
 div {
-background: rgba(255, 255, 255, 0.8); 
+background: rgba(255, 255, 255, 0.8);  
 }
 
 /* I wanted to make the headers for the different section purple because it matches the feather opacity background on the webpage */
@@ -43,7 +43,7 @@ section{
 }
 
 .imga, .imgb {
-width: 95%; 
+width: 92%; 
 }
 
 
