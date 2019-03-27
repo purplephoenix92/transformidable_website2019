@@ -8,14 +8,14 @@ div {
 background: rgba(255, 255, 255, 0.8);  
 }
 
-/* I wanted to make the headers for the different section purple because it matches the feather opacity background on the webpage */
+/* I wanted to make the headers for the different section purple and dark blue because it matches the feather opacity background on the webpage */
 
 h1 {
 color: rgb(5, 14, 145);
 }
 
 .story {
-
+display: flex; 
 color: rgb(126, 85, 180); 
 margin-top: 100px; 
 }
@@ -33,11 +33,22 @@ margin-top: 100px;
 
 }
 
+
 .image {
  display: flex;
+ justify-content: center; 
  max-width: 100%; 
  flex-wrap: wrap; 
  border: solid palevioletred;    
+}
+
+.image span {
+    /* flex-grow: .75; */
+    width: 50%;
+}
+
+.image span img{
+    width: 100%;
 }
 
 /* At first I thought the flex direction column would make my images go in a column, but all it did was stretch the distort the
@@ -84,7 +95,7 @@ border: 1px solid red;
     top: 0; 
     border: 1px solid paleturquoise;
     background-color: whitesmoke;  
-    width: 100%; 
+    width: 95%; 
 
 }
 /* I am giving the navigation class I am targeting a width of 100% So that way it expands the fullness of the page and is not cut-off.
@@ -100,18 +111,7 @@ What you are left with is a nav bar that expands all the width of the screen tha
 }
 
 @media only screen and (max-width: 600px) {
-    .image {
-        max-width: 100%;
-     
+    .image span {
+        width: 100%;
     }
-
-    .navig {
-        flex-direction: column; 
-    }
-
-    .section {
-        flex-direction: column; 
-    }
-
-
 }
