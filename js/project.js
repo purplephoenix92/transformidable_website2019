@@ -22,7 +22,7 @@ var quotes =[
  'This race wont train for itself just lace up your shoes and get moving',
  'Be strong you never know who you are inspiring'
 ]
-
+//The quotes are essentially reading as numbers going from 0 to 7. I have quoteDisplay referenced in the html, and the function gets a random quote and writes it out to the webpage. 
 function newQuote() {
 var randomNumber = Math.floor(Math.random() * (quotes.length));
 document.getElementById('quoteDisplay').innerHTML = quotes[randomNumber];

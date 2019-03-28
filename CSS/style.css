@@ -50,10 +50,6 @@ margin-top: 100px;
     width: 100%;
 }
 
-/* At first I thought the flex direction column would make my images go in a column, but all it did was stretch the distort the
-images beyond their max width, even though normally when thinking of CSS columns that if in a flex-box they would adjust
-I removed the flex-direction: column tag and it made my images go from one stretched out image, to two side by side, changing 
-to one in my mobile viewport by my media query firing  */
 .race_reports_2016 {
 color: black;
 margin-top: 100px; 
@@ -77,14 +73,6 @@ padding-top: .25em;
 section div {
 border: 1px solid red;   
 }
-
-/* .col image {
- display: inline-block;
- vertical-align: top; 
- padding: 3px; 
-
-} */
-
 
 .navig {
 

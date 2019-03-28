@@ -7,10 +7,39 @@ in order to assist with describing what their content is.
 Also I have labels through out my website in order to say what my main sections of content are. 
 
 
-The responsive element is that the images resize after 600px, and they go from being 100% width, taking up all of the visual space in the desktop viewport,
-to being placed next to eachother in the same column space at 48% width.
-I realized that the 2px border that I had around my images to visually see the difference between the div and the section tags were successful for that purpose
-and then I removed them. 
+The responsive element is that the images resize after 600px, and there is span tags acting as the bigger container
+to act upon the images. I had the width set to 100% so they have to take up the full amount of space. The display of block When
+targeting the specific images within the span 'box' and then the media query targered the viewport, and since both images 
+could not maintain the 100%, one image dropped below. 
+
+CSS commentary
+
+1. body 
+I have an image in the background, and made the image lighten as it was blending into other parts of the page. This created
+a look similar to opacity that was giving me earlier issues.
+
+2. .story 
+I have the color for the story intro text at the top purple and I also adjusted the top margins in order to push the content down just enough,
+so that when the anchor tags smooth scrolled onto different parts of my webpage, the header tag for that section would show
+
+3. .image 
+I have it in a flexbox with the justify content to keep my two images centered, and up until the breakpoint, the images stay at 50% taking up half of
+the space in the span tag, but when the viewport made the respective images width 100%, both could not be that size and still follow the span rule, 
+so with the block display it push the second image below the first one at the 600px media query breakpoint. 
+
+4. .navig
+By applying the fixed position to the navigation bar, it complemented the smooth scroll linked in jquery function for my webpage. I added a little color to make it pop
+You can scroll anywhere along the page with the fixed bar and the smooth scrolling. I made the width slightly less than 100% so 
+it visually matched up with the page better
+
+JavaScript
+
+1. Smooth scrolling
+The first function is smooth scrolling, with linking in jquery, which is a kind of shortened version of javascript. The goal was to make it smooth visually as you are navigation from
+one section to the next in my page
+
+2. Random quote generator
+The second function is a random quote generator and the goal was to click on the button to get a random quote, and it would write to the webpage, by selecting one of the quotes randomly. 
 
 
 copyright Transformidable 2019
